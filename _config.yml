@@ -1,5 +1,35 @@
 title: Bnear8273's Blog
-description: 个人记录
+author: Bnear8273
+description: 记录技术、思考与生活
+email: bnear8273@example.com
+github_username: Bnear8273
+twitter_username:
+rss: RSS
+
 theme: minima
+
+minima:
+  skin: auto
+  date_format: "%Y-%m-%d"
+  social_links:
+    - { platform: github,  user_url: "https://github.com/Bnear8273" }
+
+header_pages:
+  - about.md
+  - categories.md
+
 markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+
 permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
