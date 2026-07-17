@@ -1,0 +1,5 @@
+title: Bnear8273's Blog
+description: 个人记录
+theme: minima
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
