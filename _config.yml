@@ -2,8 +2,8 @@ lang: zh-CN
 timezone: Asia/Shanghai
 
 title: Bnear8273's Blog
-tagline: 记录技术、思考与生活
-description: 个人博客
+tagline: 什么是生活？
+description: 写的人是她本人吗？
 
 url: "https://bnear8273.github.io"
 
@@ -12,7 +12,7 @@ github:
 
 social:
   name: Bnear8273
-  email: bnear8273@example.com
+  email: bnear8273@qq.com
   links:
     - https://github.com/Bnear8273
 
