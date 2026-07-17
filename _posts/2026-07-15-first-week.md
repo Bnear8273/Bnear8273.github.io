@@ -2,7 +2,8 @@
 layout: post
 title: 第一周随笔
 date: 2026-07-15 22:00:00 +0800
-categories: life
+categories: [life]
+tags: [随笔, 感想]
 ---
 
 这周干了不少事，记录一下。

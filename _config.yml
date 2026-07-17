@@ -1,35 +1,76 @@
 title: Bnear8273's Blog
+tagline: 记录技术、思考与生活
+description: 个人博客
 author: Bnear8273
-description: 记录技术、思考与生活
-email: bnear8273@example.com
-github_username: Bnear8273
-twitter_username:
-rss: RSS
+avatar: /assets/img/avatar.png
+timezone: Asia/Shanghai
 
-theme: minima
+github:
+  username: Bnear8273
 
-minima:
-  skin: auto
-  date_format: "%Y-%m-%d"
-  social_links:
-    - { platform: github,  user_url: "https://github.com/Bnear8273" }
+social:
+  name: Bnear8273
+  links:
+    - https://github.com/Bnear8273
 
-header_pages:
-  - about.md
-  - categories.md
+theme: jekyll-theme-chirpy
 
-markdown: kramdown
+lang: zh-CN
+
+paginate: 10
+
 kramdown:
   syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
 
-permalink: /:year/:month/:day/:title/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+  - scope:
+      path: _data
+    values:
+      layout: page
+
+toc: true
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname:
+
+google_analytics:
+  id: ""
+
+pwa:
+  enabled: true
 
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-redirect-from
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
 
 exclude:
   - Gemfile
   - Gemfile.lock
+  - node_modules
   - vendor
