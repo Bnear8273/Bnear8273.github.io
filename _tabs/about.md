@@ -11,5 +11,5 @@ order: 1
 
 ### 联系方式
 
-- GitHub: [Bnear8272](https://github.com/Bnear8273)
+- GitHub: [Bnear8273](https://github.com/Bnear8273)
 - Email: bnear8273@qq.com
