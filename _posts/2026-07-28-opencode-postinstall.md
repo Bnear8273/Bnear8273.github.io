@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 修复 cd $(npm root -g)/opencode-ai && node postinstall.mjs 报错
-date: 2026-07-28 00:00:00 +0800
+date: 2026-07-28 10:10:00 +0800
 categories: [Notes]
 tags: [opencode, npm, error]
 ---
